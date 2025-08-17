@@ -7,7 +7,7 @@ def buscar_letra (banda, musica):
     letra = response.json () ["lyrics"] if response.status_code == 200 else ""
     return letra
 
-st.image ("https://i.imgur.com/SmktDIH.png")
+st.image ("./logo.png")
 st.title ("Letras de Músicas")
 
 banda = st.text_input ("Digite o nome do Artista", key="banda")
